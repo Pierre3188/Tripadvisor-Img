@@ -95,13 +95,10 @@ p {
 }
 .imagesD {
   /* background-color: blue;s */
-  width: 480px;
+  width: 250px;
   height: 100%;
 }
-.imagesD > div {
-  height: calc(50% - 1px);
-  width: 100%;
-}
+
 .imagesD img {
   height: 100%;
   width: 100%;
