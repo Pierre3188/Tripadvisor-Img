@@ -1,0 +1,113 @@
+.container-header {
+  border: 1px solid #8e8e8f;
+  width: 1024px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+.logo {
+  width: 200px;
+  height: 45px;
+  margin-left: 10px;
+}
+
+.burger_menu {
+  display: none;
+  margin-left: 20px;
+}
+
+.fa-heart {
+  margin-left: 30px;
+}
+.fa-bell {
+  margin-left: 30px;
+}
+
+.Connect {
+  margin-left: 30px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+}
+
+.fa-cart-shopping {
+  margin-right: 30px;
+}
+
+/* Main */
+
+h1 {
+  font-family: TS-med;
+  font-size: 54px;
+  line-height: 70px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+h1 > span {
+  color: #4a426d;
+}
+
+p {
+  font-family: TS-med;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.fa-bed {
+  margin-left: 10px;
+}
+
+.nav_buttons {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+.nav_buttons > div {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.Images {
+  height: 280px;
+  margin-bottom: 100px;
+  display: flex;
+  gap: 2px;
+  border: 1px solid black;
+}
+.ImagesG {
+  height: 100%;
+  flex: 1;
+}
+.ImagesG img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.imagesD {
+  /* background-color: blue;s */
+  width: 480px;
+  height: 100%;
+}
+.imagesD > div {
+  height: calc(50% - 1px);
+  width: 100%;
+}
+.imagesD img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.imagesD div:first-child {
+  margin-bottom: 2px;
+}
